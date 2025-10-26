@@ -133,6 +133,10 @@ graph LR
 ```
 
 </div>
+<!-- Snake Animation -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tartaglia770/Tartaglia770/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
 <br/>
 
 <div align="center">
