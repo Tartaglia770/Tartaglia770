@@ -8,14 +8,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 添加权限配置
     permissions:
       contents: write
-      pages: write
-      id-token: write
     steps:
+      # 使用更新版本的 checkout
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # 确保是 v4 版本
         
       - name: Generate snake animation
         uses: Platane/snk@master
@@ -23,8 +21,9 @@ jobs:
           github_user_name: Tartaglia770
           svg_out_path: dist/github-contribution-grid-snake.svg
           
+      # 如果使用 peaceiris/actions-gh-pages，考虑更新到 v4
       - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4  # 更新到 v4 版本
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
