@@ -1,8 +1,4 @@
-<div align="center">
-  
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=今日泷体不适&fontSize=60&fontAlignY=35&animation=fadeIn)
 
-</div>
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+今日泷体不适!;" />
 </h1>
