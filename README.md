@@ -128,11 +128,7 @@ graph LR
     F --> G[😴 休息]
 ```
 
-</div>
-<!-- Snake Animation -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tartaglia770/Tartaglia770/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</div>
+<picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tartaglia770/Tartaglia770/output/github-contribution-grid-snake-dark.svg"> <img alt="GitHub contributions snake" src="https://raw.githubusercontent.com/Tartaglia770/Tartaglia770/output/github-contribution-grid-snake.svg" /> </picture>
 <br/>
 
 <div align="center">
